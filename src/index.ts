@@ -1,4 +1,4 @@
-import {ProgressCallback} from '@greymass/antelope-key-encryption'
+import {ProgressCallback} from '@ttwishing/eosio-key-encryption'
 import {GenerationArguments, KeyCertificate, KeyCertificateType} from './key-certificate'
 
 export async function generate(args: GenerationArguments, progress?: ProgressCallback) {

@@ -1,7 +1,7 @@
 {
-    "name": "@greymass/keycert",
+    "name": "@ttwishing/keycert",
     "description": "Anchor key certificate encoding and decoding library",
-    "version": "1.5.0",
+    "version": "1.5.1-rc.0",
     "homepage": "https://github.com/greymass/keycert",
     "license": "BSD-3-Clause",
     "main": "lib/keycert.js",
@@ -20,7 +20,7 @@
         "prepare": "make"
     },
     "dependencies": {
-        "@greymass/antelope-key-encryption": "^1.3.0",
+        "@ttwishing/eosio-key-encryption": "^1.2.1-rc.1",
         "@greymass/base2048": "^1.0.0",
         "@wharfkit/antelope": "^1.0.7",
         "@wharfkit/signing-request": "^3.2.0",

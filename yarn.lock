@@ -212,17 +212,6 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@greymass/antelope-key-encryption@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@greymass/antelope-key-encryption/-/antelope-key-encryption-1.3.0.tgz#ec16943ded0609e3d04ec931e9ba126f5a357c13"
-  integrity sha512-OdYrBkHHiQFDnBifv0RFs5ypyS0e42x39mIcR8Y3CauVWv+IFokwhH6vLNeayVLPyxOLwRNcPBbALgVw7rl0/Q==
-  dependencies:
-    "@greymass/miniaes" "^1.0.0"
-    "@wharfkit/antelope" "^1.0.7"
-    asmcrypto.js "^2.3.2"
-    scrypt-js "^3.0.1"
-    tslib "^2.1.0"
-
 "@greymass/base2048@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@greymass/base2048/-/base2048-1.0.0.tgz#592437ee72afe2548f97c036fe3963bfc00f192e"
@@ -355,6 +344,17 @@
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
+
+"@ttwishing/eosio-key-encryption@^1.2.1-rc.1":
+  version "1.2.1-rc.1"
+  resolved "https://registry.yarnpkg.com/@ttwishing/eosio-key-encryption/-/eosio-key-encryption-1.2.1-rc.1.tgz#930a3b0fc86acddd349993749d9f8dbdefb47b99"
+  integrity sha512-vtSXXPz4Nre9j4hiTX6d5vN9fK+g/lp8QOudyyTWR73ErJ/MU0Zwz2mOXYH9b7CgYFupIJ4Vn8SJeXaD3YPbLQ==
+  dependencies:
+    "@greymass/miniaes" "^1.0.0"
+    "@wharfkit/antelope" "^1.0.7"
+    asmcrypto.js "^2.3.2"
+    scrypt-js "^3.0.1"
+    tslib "^2.1.0"
 
 "@types/estree@0.0.39":
   version "0.0.39"

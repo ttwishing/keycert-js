@@ -3,7 +3,7 @@ import {
     EncryptedPrivateKeyType,
     ProgressCallback,
     SecurityLevelType,
-} from '@greymass/antelope-key-encryption'
+} from '@ttwishing/eosio-key-encryption'
 import {Base64u, ChainId, ChainIdType} from '@wharfkit/signing-request'
 import {
     Checksum256,
